@@ -1,13 +1,13 @@
-import { Component, Injectable, OnInit } from '@angular/core';
+import { Component, Injectable, InjectableDecorator, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 
 @Injectable({
   providedIn: 'root'
 })
 
-@Component({
+/*@Component({
   selector: "app-users",
-})
+})*/
 
 export class UsersService {
   constructor(private http: HttpClient) {}
