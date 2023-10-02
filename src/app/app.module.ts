@@ -9,6 +9,9 @@ import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from '@angular/forms';
 import { LoguinComponent } from './loguin/loguin.component';
 import { Page404Component } from './page404/page404.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { GestiontestigosComponent } from './gestiontestigos/gestiontestigos.component';
+import { ConsultarpuestoComponent } from './consultarpuesto/consultarpuesto.component';
 
 
 @NgModule({
@@ -16,7 +19,10 @@ import { Page404Component } from './page404/page404.component';
     AppComponent,
     HomeComponent,
     LoguinComponent,
-    Page404Component
+    Page404Component,
+    NavigationComponent,
+    GestiontestigosComponent,
+    ConsultarpuestoComponent
   ],
   imports: [
     BrowserModule,

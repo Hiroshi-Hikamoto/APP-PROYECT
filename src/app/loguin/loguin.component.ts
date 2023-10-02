@@ -10,6 +10,7 @@ import { Router } from '@angular/router';
   template: '<button (click)="login()">Login</button>'
 })
 export class LoguinComponent implements OnInit, FormsModule{
+  showMenu: boolean = false;
   email: String = '';
   passwor: string = '';
 
